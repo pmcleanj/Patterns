@@ -1,0 +1,169 @@
+BODY 
+{	
+	BACKGROUND: #ffffff; 
+	COLOR: #444444;  
+	font-family: verdana, geneva, monaco, arial, helvetica, sans-serif;  
+	FONT-SIZE: x-small
+}
+P 
+{
+ 	font-family: verdana, geneva, monaco, arial, helvetica, sans-serif;  
+	FONT-SIZE: x-small
+}
+P.color 
+{
+	COLOR: #446632;  
+	font-family: verdana, geneva, monaco, arial, helvetica, sans-serif;  
+	FONT-SIZE: x-small
+}
+
+.bodyTable 
+{	
+	background-color: #ffffff;	
+	border: #996600 solid 1px;	
+	width: 95%;
+	margin-left: 0; 	
+	margin-right: 0
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;	
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 0;
+}
+.bodyTableHeader 
+{
+	background-color: #FADF95;
+	font-weight:  bold;
+	text-align: center;
+	border: #996600 solid 1px;
+}	
+TH
+{
+	background-color: #FADF95;
+	font-weight:  bold;
+	text-align: center;
+	border: #996600 solid 1px;
+}
+
+.bodyTableItem  
+{		
+	border: #996600 solid 1px;		
+	background-color: #fcfcfc;
+	font-size: x-small;
+}
+
+.head 
+{
+	COLOR: #446632;  
+	FONT-WEIGHT: bold; 
+	font-family: verdana, geneva, monaco, arial, helvetica, sans-serif;  
+	FONT-SIZE: large
+}
+.subHead 
+{
+	COLOR: #6C7FB0;  
+	font-family: verdana, geneva, monaco, arial, helvetica, sans-serif;  
+	FONT-SIZE: medium; 
+	FONT-WEIGHT: Bold;
+}
+
+p.subhead 
+{
+	COLOR: #6C7FB0;  
+	font-family: verdana, geneva, monaco, arial, helvetica, sans-serif;  
+	FONT-SIZE: x-small; 
+	FONT-WEIGHT: Bold;
+}
+P.small {
+	 font-family: verdana, geneva, monaco, arial, helvetica, sans-serif;  
+	FONT-SIZE: xx-small
+}
+
+P.fineprint 
+{
+	 font-family: verdana, geneva, monaco, arial, helvetica, sans-serif;  
+	FONT-SIZE: xx-small
+}
+BLOCKQUOTE {
+	font-family: verdana, geneva, monaco, arial, helvetica, sans-serif;  
+	FONT-SIZE: x-small
+}
+BLOCKQUOTE.small 
+{	 
+	font-family: verdana, geneva, monaco, arial, helvetica, sans-serif;  
+	FONT-SIZE: x-small
+}
+BR 
+{	 
+	font-family: verdana, geneva, monaco, arial, helvetica, sans-serif;  
+	FONT-SIZE: x-small
+}
+LI 
+{
+	font-family: verdana, geneva, monaco, arial, helvetica, sans-serif;  
+	FONT-SIZE: x-small
+}
+TD 
+{	 
+	font-family: verdana, geneva, monaco, arial, helvetica, sans-serif;  
+	FONT-SIZE: x-small
+}
+TD.small 
+{
+	font-family: verdana, geneva, monaco, arial, helvetica, sans-serif;  
+	FONT-SIZE: x-small
+}
+A 
+{	FONT-SIZE: x-small; 
+	COLOR: #93775B; 
+	font-family: verdana, geneva, monaco, arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+A.menu  
+{
+	FONT-SIZE: small; 
+	COLOR: #93775B; 
+	FONT-WEIGHT: bold;
+	font-family: verdana, geneva, monaco, arial, helvetica, sans-serif;
+}
+
+A.new
+{ 
+	COLOR: #006600; 
+	FONT-SIZE: small; 
+	TEXT-DECORATION: none;
+	font-family: verdana, geneva, monaco, arial, helvetica, sans-serif;
+}
+A.small 
+{	
+	FONT-SIZE: x-small; 
+	COLOR: #93775B; 
+	TEXT-DECORATION: none
+	font-family: verdana, geneva, monaco, arial, helvetica, sans-serif;
+}
+A.sub 
+{	
+	FONT-SIZE: 9px; 
+	TEXT-DECORATION: none
+}
+SUP 
+{	
+	FONT-SIZE: xx-small; 
+	EXT-DECORATION: none;
+	font-family: verdana, geneva, monaco, arial, helvetica, sans-serif;
+}
+.printonly
+{
+    display: none;
+}
+
+@media print {
+.printonly
+{
+    display: table-header-group;
+}
+.noprint
+{
+    display: none;
+}
