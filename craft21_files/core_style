@@ -1,0 +1,178 @@
+body { font-family: Arial, Helvetica, sans-serif; background-color: #eee8d9; font-size: 12px; margin: 0 8px 0 8px;}
+a { color: #900; text-decoration: none; font-weight: bold;}
+a:visited {	color: #036;}
+a:hover, a:active { text-decoration: underline;}
+dt { font-weight: bold;}
+p, td {	font-family: Arial, Helvetica, sans-serif; font-size: 12px;}
+h1, h2, h3, h4, h5, h6 { font-family: Verdana, Arial, Helvetica, sans-serif;} 
+h1 { font-size: 36px;}
+h2 { font-size: 24px;}
+h3 { font-size: 16px;}
+h4 { font-size: 14px;}
+h5 { font-size: 10px;}
+h6 { fofont-size: 9px;}
+th { font-size: 14px;}
+img, img a { border: 0;}
+
+#gamethief { background: #f60 url("/images/custom/hunt/gamethief.gif") no-repeat 98% 5px; color: #fff; margin: 10px; padding: 5px 140px 5px 5px;}
+#tert-nav { float: right; width: 260px;}
+
+/* Beginning CSS revision for standards-based design */
+/* links section is for left side navigation */
+#links { background: #9C6;}
+#link h2 { font-size: 10px; margin: 2px 0 8px 10px; padding: 0;}
+#links ul { margin: 0 0 5px 0; padding: 0; list-style: none;}
+#links li { padding: 7px 3px; border-bottom: 2px solid #360;}
+#links li.first { padding-top: 0;}
+
+/* related section is for related items diplayed beneath left-side navigation */
+#related { padding: 5px 0; background-color: #69C;}
+#related h3 { font-size: 10px; margin: 2px 0 8px 10px; padding: 0;}
+#related ul { margin: 0 10px 5px 30px; padding: 0; list-style: url(/images/arrow.gif); }
+#related li { margin: 0; padding: 0;}
+#related li.first { padding-top: 0;}
+
+/* version section holds a unique document ID number as well as the last revision date for the content, not to be confused with the last date the HTML was uploaded */
+#version { font: bold 10px Verdana, Arial, Helvetica, sans-serif; clear: both;}
+
+/* subfoot is is for sub-global navigation, diplayed beneath main-content */
+#subfoot { background: #FFC; padding: 0 3px; margin: 2px; font: 10px Arial, Helvetica, sans-serif; text-align: center;}
+#subfoot ul { list-style: none;}
+#subfoot li { display: inline; text-align: center; border: 0;}
+#subfoot a { margin: 5px 5%;}
+
+#main-content .f100, #main-content .l50, #main-content .r50, #main-content .l33, #main-content .c33, #main-content .r33, #main-content .l66, #main-content .r66 { margin-bottom: 1em;}
+#main-content div.clear { position: relative;}
+#main-content .f100 { width: 100%; clear: both;}
+#main-content .l50 { width: 49%; float: left;}
+#main-content .r50 { width: 49%; float: right;}
+#main-content .l33 { width: 33%; float: left;}
+#main-content .c33 { width: 34%; float: left;}
+#main-content .r33 { width: 33%; float: right;}
+#main-content .l66 { width: 67%; float: left;}
+#main-content .r66 { width: 67%; float: right;}
+
+#weather { background: #fff; padding: 5px;}
+#weather p { color: #000;}
+#weather a { color: #369;}
+#weather a:hover { color: #9cf;}
+
+/* external links section */
+#ext-links { background: #9c6; border: 1px solid #000; padding: 10px; margin: 5px; font-family: Arial, Helvetica, sans-serif;}
+#ext-links .new { color: #c00; font-weight: bold;}
+#ext-links .pop { font-weight: bold; font-style: italic;}
+#ext-links .date { font-syle: italic;}
+#ext-links .title { font-size: 1.5em;}
+#ext-links .subtitle { font-size: 1.3em;}
+#ext-links .menu { font-size: .8em; font-family: Verdana, Arial, Helvetica, sans-serif;}
+#ext-links .link { font-size: 1.1em;}
+#ext-links .category {}
+
+/* footer section rewrite */
+#footer { font: normal 10px Verdana, Arial, Helvetica, sans-serif;}
+#footer p { margin-left: 5px;}
+#footer ul{ background: #369; color: #FFF; border: 1px solid #000; list-style: none; margin: 0; padding: 3px 10px;}
+#footer li { display: inline; padding: 0;}
+#footer li a { color: #fff; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: none; border-left: 1px solid #fff; padding: 0 5px;}
+#footer a.first { border: 0;}
+#footer a.last { border: 0; float: right; position: relative; top: -1.6em; padding-right: 10px; voice-family: "\"}\""; voice-family:inherit; top: -1.2em;}
+#footer a:visited { color: #ccc;}
+#footer a:hover { text-decoration: underline;}
+#footer img { float: right; border: 0;}
+#footer div.smallboldtxt { margin: 0; padding: 0;}
+
+.none { height: 0; width: 0; overflow: hidden; position: absolute;}
+.center { text-align: center;}
+.left { float: left;}
+.right { float: right;}
+.p-align-l { text-align: left;}
+.p-align-r { text-align: right;}
+.p-align-c { text-align: center;}
+
+.news { color: #CC9; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; background-color: #330;}
+.news a:link, .news a:active { color: #FFF; font-weight: bold; text-decoration: none;}
+.news a:visited { color: #CCC; font-weight: bold;}
+.news a:hover { color: #FFC; text-decoration: underline;}
+.news p { color: #CC9; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px;}
+.news-background { background-image: url(/images/custom/portal/news_shim.jpg); background-repeat: repeat;  background-color: #330; background-position: left center;}
+
+.smallwhtlink, .smallwhtlink a:link, .smallwhtlink a:active { color: #FFF; text-decoration: none; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold;}
+.smallwhtlink a:visited { color: #CCC;}
+.smallwhtlink a:hover { text-decoration: underline;}
+
+.navigation { color: #FFF; background-color: #369; font: normal 10px Verdana, Arial, Helvetica, sans-serif;}
+.navigation a { color: #FFF; text-decoration: none; font: bold 10px Verdana, Arial, Helvetica, sans-serif;}
+.navigation a:visited { color: #CCC;}
+.navigation a:hover { text-decoration: underline;}
+.navigation input {text-decoration: none;}
+.navigationleft { background: #369 url(/images/sm_bluebox/mid_left.gif) repeat-y;}
+.navigationright { background: #369 url(/images/sm_bluebox/mid_right.gif) repeat-y;}
+
+.monospace { font-family: Courier, monospace; font-size: 10px; font-weight: normal;}
+.whitetxt { color: #FFF;}
+.newshead {	color: #FFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18pt; font-weight: bold;}
+.smallink {	color: #036; text-decoration: underline; font-size: 10px;}
+.whitesub {	color: #FFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold;}
+.smallitalic { color: #666; font-size: 10px; font-style: italic; font-weight: bold;}
+.dkbrowntable1 { color: #FFF; text-decoration: none; background-color : #663; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold;}
+
+.utlity1 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #330; text-decoration: none;}
+.utlity1 a:visited { font-size: 10px; font-weight: bold; color: #900 ;}
+.utlity1 a:link, .utlity1 a:hover, .utlity1 a:active { font-weight: bold; text-decoration: underline;}
+
+.smalltxt { font-family: Arial, Helvetica, sans-serif; font-size: 10px; text-decoration: none;}
+.smalltxt a:link, .smalltxt a:active { color: #036;}
+.smalltxt a:visited { color: #900;}
+.smalltxt a:hover { text-decoration: underline;}
+
+.shop-navigation, .shop-navigation a, .shop-navigation a:link { color: #FFF; text-decoration: none; font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-size: 12px; background-color: #369;}
+.shop-navigation a:visited { color: #CCC; font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-size: 12px;}
+.shop-navigation a:hover { text-decoration: underline; font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-size: 12px;}
+
+.smboldtxt { font: bold 10px Verdana, Arial, Helvetica, sans-serif;}
+.seasonHead { background-color: #FFF;}
+.action, .action a:link, .action a:active, .action a:visited { text-decoration: none; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold;}
+.action a:hover { text-decoration: underline;}
+.action-sub { font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin-left: 4em;}
+.dark-bground { background-color: #000;}
+.redtxt { color: #F00;}
+
+.notice { color: #fff; background-color: #F33; font-size: 24px; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif; text-align: center;}
+.topics { color: #fff; font: bold 24px Verdana, Arial, Helvetica, sans-serif; background-color: #060;}
+.topic h2 { margin-bottom: 0;}
+.address { background-color: #9C6;}
+.address strong { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px;}
+.address p { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px;}
+.links { background-color: #9c6;}
+.places { background-color: #69c;}
+.related { background-color: #69c;}
+.portal { background-color: #cc9;}
+.event { background-color: #69c;}
+.event-alt { background-color: #cc9;}
+.hunting { background-color: #F60; color: #fff; text-decoration: none;}
+.hunting a:link, .hunting a:visited, .hunting a:active{ text-decoration: none;}
+.hunting a:hover { text-decoration: underline ;}
+.hunting-gradient { background: url(/images/hunt/gradient.gif) repeat-y;}
+.hunting-content { background: #fff; color: #000;}
+.row { background-color: #fff;}
+.row-alt { background-color: #CC9;}
+.acrobat { width: 80%; background-color: #ffc; text-align: center; padding: 3px; margin: 0 auto;}
+.archive table { background: #fff; width: 100%;}
+.archive table td { width: 50%; vertical-align: top;}
+.archive table td h3 { background: #69c; color: #fff; margin: 0; padding: 3px 2px;}
+.pbl { width: 300px; border: 1px solid #330; background: #f9f7f0; float: left; padding: 3px;}
+.pbr { width: 300px; border: 1px solid #330; background: #f9f7f0; float: right; padding: 3px;}
+.pbl p, .pbr p { font-size: 10px; margin: 0; padding: 2px;}
+.feat-incl { background: #ffc; margin: 0 0 10px 0; border: 1px solid #330;}
+.feat-incl h3 { font-size: 1.5em; margin: 0; padding: 3px;}
+.feat-incl p { font-size: .9em; font-family: Verdana, Arial, Helvetica, sans-serif; margin: 0; padding: 4px;}
+.prod-incl { background: #9c6; margin: 0 0 10px 0;}
+.prod-incl h2 { background: url("/images/product_include.gif") no-repeat; height: 34px; margin: 0; padding: 0;}
+.prod-incl h2 a { height: 0; width: 0; overflow: hidden; position: absolute;}
+.prod-incl h3 { font-size: 1.3em; margin: 0; padding: 3px 0;}
+.prod-incl p { font-size: .9em; font-family: Verdana, Arial, Helvetica, sans-serif; margin: 0; padding: 4px;}
+.prod-incl-desc { border: 1px solid #000;}
+.pdf { background: transparent url("/images/smallpdf.gif") no-repeat 0% 0%; padding: 4px 0 0 18px;}
+.excel { background: transparent url("/images/smallexcel.gif") no-repeat 0% 0%; padding: 4px 0 0 18px;}
+
+#links li.pdf { background: transparent url("/images/smallpdf.gif") no-repeat 0% 0%; padding: 2px 0 0 18px;}
