@@ -1,0 +1,43 @@
+---
+bg: "SangriaSews.jpeg"
+layout: default
+crawlertitle: "Patterns from the Shadows"
+title: "The Logrus Patterns from the Shadows"
+summary: "main page"
+---
+
+
+<!-- create categories array-->
+{% assign categories_array = "" | split:" " %}
+{% for pattern in site.patterns %}
+    {% for tag in pattern.tags %}
+        {% assign tag_array = tag_array | push: tag | uniq %}
+    {% endfor %}
+{% endfor %}
+<br>
+
+{% assign tag_array = tag_array |sort %}
+{% assign tag_array = tag_array | push: "uncategorized" | uniq %}
+
+<br>
+
+{% for each_tag in tag_array %}
+	<h4 id="{{each_tag}}">{{each_tag}}</h4>
+	{% for pattern in site.patterns %}
+
+		{% assign has_tag = False %}
+	    {% for tag in pattern.tags %}
+	        {% assign has_tag = True %}
+	        {% if tag == each_tag %}
+		    <p>
+		    	<a class="listOlinks" href="{{site.url}}{{site.baseurl}}{{pattern.url}}">
+		    	{{ pattern.title }}
+		    	</a>
+		    </p>
+	        {% endif %}
+	    {% endfor %}
+		{% if has_tag == False and each_tag == "uncategorized"%}
+		   <p><a class="listOlinks" href="{{site.url}}{{ site.baseurl }}{{ pattern.url }}">{{ pattern.title }}</a></p>
+		{% endif %}
+	{% endfor %}
+{% endfor %}

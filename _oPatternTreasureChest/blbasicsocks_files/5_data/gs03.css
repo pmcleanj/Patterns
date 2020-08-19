@@ -1,0 +1,34 @@
+b {font-weight: bold;}
+a {color:#330066;}
+a:visited {color:#660066;}
+a.xsab, a.xsvb, a.sab, a.svb, a.snb, a.nab, a.nvb, a.nnb {font-weight: bold;}
+a.xsa, a.xsv, a.xsab, a.xsvb {font-size: 7pt;}
+a.sa, a.sv, a.sab, a.svb, a.sra, a.srab, a.srv, a.srvb {font-size: 8pt;}
+a.na, a.nv, a.nab, a.nvb, a.nra, a.nrab, a.nrv, a.nrvb {font-size: 10pt;}
+a.xsa, a.xsab, a.sa, a.sab, a.na, a.nab, a.nra, a.nrab {font-family: arial,helvetica,sans-serif;}
+a.xsv, a.xsvb, a.xs9v, a.sv, a.svb, a.nv, a.nvb, a.nrv, a.nrvb {font-family: verdana, arial,helvetica,sans-serif;}
+a.nra, a.nrab, a.nrv, a.nrvb {color: #cc0000;}
+.sub {font: 10pt arial,helvetica,sans-serif; color: #000000; line-height : 135%}
+.navin {font: bold 10pt arial,helvetica,sans-serif; color: #ffffff; text-decoration:none;}
+.sitedisplay {font: bold 18pt verdana,arial,helvetica,sans-serif; color: #ffffff; text-decoration:none;}
+.lrheader {font: 14pt verdana,arial,helvetica,sans-serif; color: #cc0000;}
+.h1 {font: bold 13pt verdana,arial,helvetica; color: #CC0000; text-decoration: none;}
+.sc {color: #0066CC;}
+.swa, .swab, .nwa, .nwab, .swv, .swvb, .nwv, .nwvb {color: #ffffff;}
+.sna, .snab, .snv, .snvb, .nna, .nnab, .nnv, .nnvb, .xlna, .xlnab, .xlnv, .xlnvb {color: #000000;}
+.s6a, .s6ab, .s6v, .s6vb {color: #666666;}
+.s9a, .s9ab, .s9v, .s9vb, .xs9v {color: #999999;}
+.sca, .scab, .scv, .scvb, .ncv, .ncvb {color: #cccccc;}
+.sea, .seab, .sev, .sevb {color: #eeeeee;}
+.sra, .srab, .srv, .srvb, .nra, .nrab, .nrv, .nrvb {color: #cc0000;}
+.xsnab, .snab, .s6ab, .s9ab, .scab, .seab, .swab, .srab, .nnab, .nwab, .nrab, .xlnab, .xsnvb, .snvb, .s6vb, .s9vb, .scvb, .sevb, .swvb, .srvb, .nnvb, ncvb, .nwvb, .nrvb, .xlnvb {font-weight: bold;}
+.xsna, .xsnab, .xsnv, .xsnvb, .xs9v {font-size: 7pt;}
+.swa, .swab, .sna, .snab, .s6a, .s6ab, .s9a, .s9ab, .sca, .scab, .sea, .seab, .swv, .swvb, .snv, .snvb, .s6v, .s6vb, .s9v, .s9vb, .scv, .scvb, .sev, .sevb, .sra, .srab, .srv, .srvb {font-size: 8pt;}
+.nna, .nnab, .nwa, .nwab, .nnv, .nnvb, .ncv, .ncvb, .nwv, .nwvb, .nrv, .nrvb, .nrab {font-size: 10pt;}
+.xlna, .xlnab, .xlnv, .xlnvb {font-size: 14pt;}
+.xsna, .xsnab, .sna, .snab, .s6a, .s6ab, .s9a, .s9ab, .sca, .scab, .sea, .seab, .swa, .swab, .sra, .srab, .nna, .nnab, .nwa, .nwab, .nra, .nrab, .xlna, .xlnab {font-family: arial,helvetica,sans-serif;}
+.xsnv, .xsnvb, .xs9v, .snv, .snvb, .s6v, .s6vb, .s9v, .s9vb, .scv, .scvb, .sev, .sevb, .swv, .swvb, .srv, .srvb, .nnv, .nnvb, .ncv, .ncvb, .nwv, .nwvb, .nrv, .nrvb, .xlnv, .xlnvb {font-family: verdana, arial,helvetica,sans-serif;}
+.nsphr {font: bold 13pt verdana,arial,helvetica; color: #999999; text-decoration: none;}
+.s0v a, .s0v a:visited, .s0v a:link {font-weight: bold; color: #000000;}
+.sblv {font: 8pt verdana,arial,helvetica; color: #0000ff;}
+.r1 {background-color: #CC0000;}

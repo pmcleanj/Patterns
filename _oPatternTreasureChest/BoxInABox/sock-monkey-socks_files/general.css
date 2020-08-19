@@ -1,0 +1,31 @@
+td {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px}
+a:link {
+	color: #900A15;
+	text-decoration: underline;
+	font-weight: normal;
+}
+a:visited {  color: #4C4453; text-decoration: underline; font-weight: normal}
+a:hover {  color: #900A15; text-decoration: underline; font-weight: bold}
+h1 {  font-size: 13px; color: #800040; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif}
+.sidelinks {
+	text-decoration: none;
+}
+.sidelinks a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.sidelinks a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #EEECF0;
+	text-decoration: none;
+}
+.sidelinks a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #CCCCCC;
+	text-decoration: none;
+}

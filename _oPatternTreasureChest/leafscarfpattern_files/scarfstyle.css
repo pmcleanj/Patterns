@@ -1,0 +1,133 @@
+/* ============================================================ */
+/* ==============Column of Leaves Scarf STYLE================== */
+/* ====================Updated 7/14/08========================= */
+/* ============================================================ */
+
+html, body {
+margin: 0;
+padding: 0;
+}
+
+body {
+margin: 0;
+padding: 0;
+text-align: center;
+font-family: verdana;
+color: #444444;
+font-size: 11px;
+line-height:16px;
+background-color: #EAF7C7;
+}
+
+#leafscarfchart body {
+margin: 0;
+padding: 0;
+text-align: center;
+font-family: verdana;
+color: #444444;
+font-size: 11px;
+line-height:16px;
+background-color: #EAF7C7;
+}
+
+p {
+margin: 0 0 16px 0;
+padding: 0;
+text-align: left;
+font-family: verdana;
+color: #444444;
+font-size: 11px;
+line-height:16px;
+}
+
+#mainwrap {
+margin: 0 auto;
+padding: 0;
+}
+
+#bg-top-x {
+margin: 0;
+padding: 0;
+background: url(scarf-bg-top-x.jpg) center top repeat-x;
+}
+
+#bg-top {
+margin: 0;
+padding: 0;
+background: url(scarf-bg-top.jpg) center top no-repeat;
+}
+
+#bg-mid {
+margin: 0;
+padding: 0;
+background: url(scarf-bg-mid.jpg) center top repeat-y;
+}
+
+#bg-bot {
+margin: 0;
+padding: 0;
+height: 25px;
+background: url(scarf-bg-bot.jpg) center top no-repeat;
+}
+
+#content {
+width: 820px;
+border: 0;
+margin: 0 auto;
+padding: 75px 0 0 0;
+text-align: left;
+}
+
+a:link 	{ color:#7EA65E; font-weight:bold; text-decoration:none; }
+a:visited 	{ color:#7EA65E; font-weight:bold; text-decoration:none; }
+a:hover 	{ color:#7EA65E; font-weight:bold; text-decoration:underline; }
+a:active 	{ color:#7EA65E; font-weight:bold; text-decoration:underline; }
+
+#content a:link 	{ color:#7EA65E; font-weight:bold; text-decoration:none; }
+#content a:visited 	{ color:#7EA65E; font-weight:bold; text-decoration:none; }
+#content a:hover 	{ color:#7EA65E; font-weight:bold; text-decoration:underline; }
+#content a:active 	{ color:#7EA65E; font-weight:bold; text-decoration:underline; }
+
+
+
+h1 {
+padding: 0 0 10px 0;
+margin: 0;
+color: #4B6536;
+text-align: center;
+font-family: georgia, serif;
+font-size: 20px;
+font-weight: bold;
+letter-spacing: 1px;
+line-height: 30px;
+}
+
+h2 {
+padding: 0 0 5px 0;
+margin: 0;
+color: #4B6536;
+text-align: left;
+font-family: georgia, serif;
+font-size: 17px;
+font-weight: bold;
+letter-spacing: 0;
+line-height: 25px;
+}
+
+
+hr {
+margin:  0 0 15px 0;
+padding: 0;
+border-top: 1px solid #EAF7C7;
+border-bottom: 1px solid #648947;
+border-right:0;
+border-left:0;
+height: 2px;
+}
+
+
+.spacer8 {
+margin:0;
+padding:0;
+height:8px;
+}

@@ -1,0 +1,1 @@
+document.write('<a href="http://partner.alexa.com/amzn/redirect_to_detail?amzn_id=theinquirynet-20&url=www.inquiry.net">');document.write('<IMG BORDER="0" SRC="http://traffic.alexa.com/graph?a=1&w=468&h=240&r=1y&u=www.inquiry.net&" alt="Alexa Traffic Graph for www.inquiry.net" >');document.write('</a>');
