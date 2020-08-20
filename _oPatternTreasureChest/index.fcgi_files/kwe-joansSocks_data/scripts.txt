@@ -1,0 +1,16 @@
+
+/* 
+test for direct branch to this page; if so, invoke parent
+*/
+
+if (parent.location == self.location) {
+	location.href="http://www.lionbrand.com/cgi-bin/lionbrand/index.fcgi?page=" + self.location.toString();
+ }
+
+
+/* 
+get current page address and invoke send-to-a-friend feature
+*/
+function sendPage() {
+	location.href='http://www.lionbrand.com/cgi-bin/lionbrand/sendtoafriend.cgi?page=' + self.location.toString()+'&name=' + escape(document.title) + '&store=/stores/lionbrand&action=getAddresses';
+}

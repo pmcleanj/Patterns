@@ -1,0 +1,53 @@
+
+
+BODY {
+		font-family: Arial;
+		font-size: 14px;
+		font-weight: normal;
+		font-style: normal;
+		color: #000000;
+		background: #FFFFF0;
+		text-align: left;
+		text-indent: 0pt;
+		margin-top: 5pt;
+		margin-bottom: 5pt;
+		margin-left: 5pt;
+		margin-right: 5pt;
+		position: relative; }
+   		HR { height: 2px; color: #B27F66; }
+		
+H1 { font-size : 13px; font-weight : bold; color : #000000; margin-bottom: 3pt; margin-top: 3pt }
+	
+H2 { font-size : 14px; font-weight : bold; font-style: italic; color : #000000; }
+
+H3 { font-family: Verdana; font-size : 9px; font-weight : bold; color : #602000; margin-bottom: 0; margin-top: 0 }
+
+H4 { font-size : 16px; font-weight : bold; color : #000000; text-align:center; margin-bottom: 0pt; margin-top: 0pt }
+
+H5 { font-family: Verdana; font-size : 11px; font-weight : bold; color : #339999; font-style: italic; margin-bottom: 1pt; margin-top: 1pt }
+
+H6 { font-size : 18px; font-weight : bold; font-style: italic; color : #000000; text-align:center; margin-bottom: 0pt; margin-top: 0pt }
+
+
+a:link {color: #602000; text-decoration: none;}
+a:visited {color: #602000; text-decoration: none;}
+a:hover {color: #424242; text-decoration: underline; font-size: 125%}
+a:active {color: #424242; text-decoration: none;}
+
+input[type="submit"] {
+border: 2px #602000 solid;
+width: 100px;
+height: 30px;
+background-color: #00CCCC;
+font-weight: bold;
+font-family : Arial, Verdana, Helvetica, Sans-Serife;
+font-size: 8pt;
+}
+
+input[type="text"] {
+border: 1px #602000 solid;
+width: 110px;
+height: 20px;
+}
+
+
